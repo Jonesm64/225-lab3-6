@@ -9,6 +9,7 @@ pipeline {
         KUBECONFIG = credentials('jonesm64-225-sp26')                                                         //<------change this
     }
 
+    
     stages {
         stage('Checkout') {
             steps {
